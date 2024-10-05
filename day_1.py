@@ -1,5 +1,9 @@
 """Advent Of Code 2023 - Day 1"""
 
+
+from utils import read_data
+
+
 digit_map: dict[str, int] = {
     "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9
 }
@@ -54,18 +58,8 @@ def solution_1(data: list[str]) -> None:
     print(f"\nResult : {result}")
 
 
-def read_data() -> list[str]:
-    data: list[str] = []
-    input_path = input("Enter input file path : ") or "Inputs/day_1.txt"
-
-    with open(input_path, "r+") as f:
-        data = f.read().strip().split("\n")
-
-    return data
-
-
 def main() -> None:
-    data: list[str] = read_data()
+    data: list[str] = read_data(filename=__file__)
     solution_1(data)
     solution_2(data)
 
