@@ -1,5 +1,3 @@
-# Advent of Code **2023**
+<h1 align="center">Advent of Code 2023</h1>
 
-Here are the solutions to the Advent Of Code 2023 problems with explanations solved using **Python**.
-
-Link : [Advent of Code 2023](https://adventofcode.com/2023)
+<p align="center">This repository contains the solutions to the <a href="https://adventofcode.com/2023" target="_blank"><b>Advent of Code 2023</b></a> solved in Python.</p>
